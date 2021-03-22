@@ -2028,6 +2028,7 @@ figure figcaption {
 
 .img-side{
     position: absolute;
+    width: 25%;
     height: 100%;
     float: left; 
     margin: -10px 0px 0px 0px;
@@ -2047,6 +2048,5 @@ wel-text{
 @media screen and (max-width: 400px){
     wel-text {
         color: white;
-        text-decoration-color: white; 
     }
 }
