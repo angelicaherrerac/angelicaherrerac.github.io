@@ -2028,15 +2028,16 @@ figure figcaption {
 
 .img-side{
     position: absolute;
-    height: 100%;
+    width: 25%;
+    height: auto;
     float: left; 
     margin: -10px 0px 0px 0px;
     
 }
 @media screen and (orientation: portrait) {
-  img-side { max-width: 90%; }
+  img-side { max-width: 80%; }
 }
 
 @media screen and (orientation: landscape) {
-  img-side { max-height: 90%; }
+  img-side { max-height: 80%; }
 }
