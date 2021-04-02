@@ -315,8 +315,10 @@ jQuery(document).ready(function($) {
 
   		if (st > 100) {
   			$('.js-sticky-header').addClass('shrink');
+            $('#logohc').show();
   		} else {
   			$('.js-sticky-header').removeClass('shrink');
+            $('#logohc').hide();
   		}
 
   	}) 
