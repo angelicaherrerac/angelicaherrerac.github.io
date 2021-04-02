@@ -2034,13 +2034,26 @@ figure figcaption {
     margin: -10px 0px 0px 0px;
     
 }
+.img-side-log{
+    position: absolute;
+    width: 120%;
+    height: auto;
+    float: left; 
+    margin: -30px 0px 0px 0px;
+    
+}
 .backg-img{
     position: absolute;
   background-size: cover;
   background-repeat: no-repeat;
     object-fit: cover;
    width: 100%;
-    height: 700px;
+    height: 600px;
+}
+
+.nombreop{
+    font-family: 'Rye';font-size: 22px;
+    color: white;
 }
 @media screen and (orientation: portrait) {
   img-side { max-width: 80%; }
